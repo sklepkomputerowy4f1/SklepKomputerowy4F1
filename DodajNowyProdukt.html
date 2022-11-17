@@ -1,0 +1,38 @@
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="sklepkomputerowy.css?version=1" />
+<link rel="icon" type="image/x-icon" href="ikona.ico">
+</head>
+
+<body> 
+<form action="DodajNowyProdukt.php" method="get" enctype="text/plain"><div>
+<div class="topnav">
+
+<a class="s" href="index.html"> Sklep Komputerowy - Strona G³ówna </a>
+
+</div>
+<div class="bg-image"></div>
+
+<div class="DodajProdukt">
+<h1> Dodaj nowy produkt </h1>
+<p>Nazwa</p>
+ <input type="text" name="Nazwa_P" placeholder="Wpisz nazwe..." class="powieksz"><br><br>
+ 
+<p>Model </p>
+
+<input type="text" name="Model_P"  class="powieksz" placeholder="Wpisz model..."><br><br>
+<p>Cena (z³) </p>
+
+<input type="number" min="1" name="Cena_P" class="numer"><br><br>
+<p>Iloœæ </p>
+<input type="number" min="1" class="numer" name="Ilosc_P"><br>
+<br> <br>
+
+<!-- Przycisk WYŒLIJ -->
+<input type="submit" class="submit" value="Dodaj Nowy Produkt">
+
+</div></form>
+</body>
+
+</html>

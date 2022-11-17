@@ -1,0 +1,196 @@
+		body 
+	{
+	background-color:grey;
+	}
+	
+.center-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height:20%;
+  
+border-radius: 25px;
+  color: white;
+  font-weight: bold;
+  
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 65%;
+  margin-top:10px;
+  padding: 10x;
+  text-align: center;
+  
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+}
+      /* ------------------------CZĘŚĆ-GÓRNA-MENU------------------------ */
+
+      /* wygląd głównego elementu - ol */
+      ol {
+        list-style-type:none;
+        padding:0;
+        margin:0;
+        background-color:none;
+        font-size:35px;
+        height:2em;
+        line-height:2em;
+        text-align:center;
+		font-family: 'Lato';
+		font-weight: 600;
+
+
+      }
+
+      /* wygląd wszystkich elementów - a - znajdujących się w elemencie - ol */
+      ol a {
+        display:block;
+        text-decoration:none;
+        color:#003060;
+        padding:0 5px;
+		background-image: linear-gradient( 109.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1% );
+		
+		border-radius: 10px;
+      }
+
+      /* wygląd elementów - li - wszystkich dzieci elementu - ol */
+      ol > li {
+        float:left;
+        width:350px;
+        margin-left:20px;
+        background-color:#FDD700;
+        height:2em;
+		border-radius: 10px;
+      }
+
+      /* wygląd elementu - li - pierwszego dziecka elementu - ol */
+      ol > li:first-child {
+        margin-left:3;
+      }
+
+      /* wygląd elementów - li - wszystkich dzieci elementu - ol - po najechaniu kursorem myszki na element - li */
+      ol > li:hover {
+	  
+        background-color:#EEE;
+      }
+
+      /* wygląd elementu - a - dziecka elementu - li - będącego dzieckiem elementu - ol - po najechaniu kursorem myszki na element - li */
+      ol > li:hover > a {
+        color:#055C9D;
+		background-image: linear-gradient(-20deg, #00cdac 0%, #8ddad5 100%);
+      }
+
+      /* wygląd elementu - ul - dziecka elementu - li - będącego dzieckiem elementu - ol - po najechaniu kursorem myszki na element - li */
+      ol > li:hover > ul {
+        display:block;
+		
+      }
+
+      /* ------------------------CZĘŚĆ-ROZWIJANA-MENU------------------------ */
+
+      /* wygląd głównych rozwijanych elementów - ul */
+      ol > li > ul {
+        display:none;
+        list-style-type:none;
+       padding:20;
+	        background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.3); /* Black w/opacity/see-through */
+		border-radius: 10px;
+      }
+
+      /* wygląd elementu - li - w części rozwijanej */
+      ol > li > ul > li {
+        position:relative;
+        background-color:#EEE;
+		border-radius: 10px;
+		margin-top:3px;
+		font-size:24px;
+		font-weight:400;
+		
+		
+      }
+
+      /* wygląd elementu - a - w części rozwijanej */
+      ol > li > ul > li > a {
+        border-top:6px solid #grey;
+		border-radius: 10px;
+		
+      }
+
+      /* wygląd elementu - li - w części rozwijanej, po najechaniu kursorem myszki na dany element - li */
+      ol > li > ul > li:hover {
+        padding:0;
+		background-image: linear-gradient( 95.2deg, rgba(173,252,234,1) 26.8%, rgba(192,229,246,1) 64% );
+      }
+
+      /* wygląd elementu - a - w części rozwijanej, po najechaniu kursorem myszki na element - li */
+      ol > li > ul > li:hover > a {
+        color:#177285;
+		background-image: linear-gradient( 95.2deg, rgba(173,252,234,1) 26.8%, rgba(192,229,246,1) 64% );
+      }
+    
+.bg-image {
+  /* The image used */
+  background-image: url("bgimage.jpg");
+
+  /* Add the blur effect */
+  filter: blur(10px);
+  -webkit-filter: blur(10px);
+
+  /* Full height */
+  height: 90%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.topnav {
+  overflow: hidden;
+ background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  width: 60%;
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left:20%;
+  border-radius: 5px;
+}
+
+
+.topnav a {
+  float: left;
+ 
+  color: #A4E9D5;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 35px;
+  font-weight:500;
+  width:100%;
+  
+
+}
+
+.topnav s{
+	
+  color: #A4E9D5;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 35px;
+  font-weight:500;
+  width:15%;
+}
+
+
+.topnav a:hover {
+	
+  color: #22577A;
+}
