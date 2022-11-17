@@ -5,3 +5,4 @@ Aktualne rzeczy, na które pozwala nam strona:
 - Sprzedaż produktów
 - Wyświetlenie całej listy produktów, wcześniejszych sprzedaży oraz archiwum, w którym znajdziemy większość informacji o modyfikacjach.
 
+LINK do strony: https://sklepkomputerowy4f1.000webhostapp.com/
